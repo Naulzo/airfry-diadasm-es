@@ -1,0 +1,55 @@
+
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    padding: 1em;
+    background-color: #222;
+}
+.logo {
+    max-width: 180px;
+}
+.gallery {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+}
+.gallery img {
+    max-height: 300px;
+    border-radius: 10px;
+}
+.info, .form, .pix {
+    padding: 20px;
+}
+.price {
+    font-size: 1.5em;
+    color: #0f0;
+}
+.pixqr {
+    max-width: 200px;
+    display: block;
+    margin: 10px auto;
+}
+textarea {
+    width: 100%;
+    height: 80px;
+}
+form input, form button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+}
+form button {
+    background-color: #0a0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
